@@ -1,0 +1,723 @@
+    1  ls
+    2  cat features.txt 
+    3  ls
+    4  exit
+    5  wsl -l -v
+    6  ls
+    7  npm -v
+    8  node -v
+    9  node 
+   10  pnpm run dev
+   11  curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/master/install.sh | bash
+   12  source ~/.bashrc
+   13  еы
+   14  Homer@DESKTOP-TS3GQ69 MINGW64 /g/common/next-movie (master)
+   15  $ еыдt^C
+   16  Homer@DESKTOP-TS3GQ69 MINGW64 /g/common/next-movie (master)
+   17  $ wsl
+   18  To run a command as administrator (user "root"), use "sudo <command>".
+   19  See "man sudo_root" for details.
+   20  rustam@DESKTOP-TS3GQ69:/mnt/g/common/next-movie$ wsl -l -v
+   21  Command 'wsl' not found, but can be installed with:
+   22  sudo apt install wsl
+   23  rustam@DESKTOP-TS3GQ69:/mnt/g/common/next-movie$ ls
+   24  README.md                 features.txt  package.json
+   25  api                       ignore        pnpm-lock.yaml
+   26  docker                    k8s           pnpm-workspace.yaml
+   27  docker-compose.dev.yaml   logs          tsconfig.base.json
+   28  docker-compose.prod.yaml  next
+   29  eslint.config.mjs         node_modules
+   30  rustam@DESKTOP-TS3GQ69:/mnt/g/common/next-movie$ npm -v
+   31  10.9.2
+   32  rustam@DESKTOP-TS3GQ69:/mnt/g/common/next-movie$ node -v
+   33  Command 'node' not found, but can be installed with:
+   34  sudo apt install nodejs
+   35  rustam@DESKTOP-TS3GQ69:/mnt/g/common/next-movie$ node
+   36  Command 'node' not found, but can be installed with:
+   37  sudo apt install nodejs
+   38  rustam@DESKTOP-TS3GQ69:/mnt/g/common/next-movie$ pnpm run dev
+   39  /mnt/c/Users/Homer/AppData/Roaming/npm/pnpm: 15: exec: node: not found
+   40  rustam@DESKTOP-TS3GQ69:/mnt/g/common/next-movie$ ^C
+   41  rustam@DESKTOP-TS3GQ69:/mnt/g/common/next-movie$ curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/master/install.sh | bash
+   42  100 16641  100 16641    0     0   114k      0 --:--:-- --:--:-- --:--:--  113k
+   43  => Downloading nvm from git to '/home/rustam/.nvm'
+   44  => Cloning into '/home/rustam/.nvm'...
+   45  remote: Enumerating objects: 384, done.
+   46  remote: Counting objects: 100% (384/384), done.
+   47  remote: Compressing objects: 100% (328/328), done.
+   48  remote: Total 384 (delta 42), reused 181 (delta 28), pack-reused 0 (from 0)
+   49  Receiving objects: 100% (384/384), 392.50 KiB | 2.73 MiB/s, done.
+   50  Resolving deltas: 100% (42/42), done.
+   51  * (HEAD detached at FETCH_HEAD)
+   52  => Compressing and cleaning up git repository
+   53  => Appending nvm source string to /home/rustam/.bashrc
+   54  => Appending bash_completion source string to /home/rustam/.bashrc
+   55  => You currently have modules installed globally with `npm`. These will no
+   56  => longer be linked to the active version of Node when you install a new node
+   57  => with `nvm`; and they may (depending on how you construct your `$PATH`)
+   58  => override the binaries of modules installed with `nvm`:
+   59  C:\Users\Homer\AppData\Local\nvm\v23.11.1
+   60  ├── corepack@0.32.0
+   61  => If you wish to uninstall them at a later point (or re-install them under your
+   62  => `nvm` node installs), you can remove them from the system Node as follows:
+   63  => Close and reopen your terminal to start using nvm or run the following to use it now:
+   64  export NVM_DIR="$HOME/.nvm"
+   65  [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+   66  [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+   67  rustam@DESKTOP-TS3GQ69:/mnt/g/common/next-movie$ source ~/.bashrc
+   68  rustam@DESKTOP-TS3GQ69:/mnt/g/common/next-movie$
+   69  node -v
+   70  clear
+   71  node -v
+   72  sudo apt update
+   73  command -v nvm
+   74  nvm install --lts
+   75  nvm 
+   76  node alias default 25.2.1
+   77  node alias default v25.2.1
+   78  node -v
+   79  node --version
+   80  sudo apt install -y libatomic1
+   81  node use 25.2.1
+   82  nvm use 25.2.1
+   83  node -v
+   84  curl -sfL https://get.k3s.io | sh -
+   85  kubectl get nodes
+   86  ks
+   87  rustam@DESKTOP-TS3GQ69:/mnt/g/common/next-movie$ kubectl get nodes
+   88  E1206 07:35:21.845510    7869 memcache.go:265] "Unhandled Error" err="couldn't get current server API group list: Get \"http://localhost:8080/api?timeout=32s\": dial tcp 127.0.0.1:8080: connect: connection refused"
+   89  E1206 07:35:21.845925    7869 memcache.go:265] "Unhandled Error" err="couldn't get current server API group list: Get \"http://localhost:8080/api?timeout=32s\": dial tcp 127.0.0.1:8080: connect: connection refused"
+   90  E1206 07:35:21.847503    7869 memcache.go:265] "Unhandled Error" err="couldn't get current server API group list: Get \"http://localhost:8080/api?timeout=32s\": dial tcp 127.0.0.1:8080: connect: connection refused"
+   91  E1206 07:35:21.847834    7869 memcache.go:265] "Unhandled Error" err="couldn't get current server API group list: Get \"http://localhost:8080/api?timeout=32s\": dial tcp 127.0.0.1:8080: connect: connection refused"
+   92  E1206 07:35:21.849511    7869 memcache.go:265] "Unhandled Error" err="couldn't get current server API group list: Get \"http://localhost:8080/api?timeout=32s\": dial tcp 127.0.0.1:8080: connect: connection refused"
+   93  The connection to the server localhost:8080 was refused - did you specify the right host or port?
+   94  kubectl version --short
+   95  kubectl
+   96  kubectl version -short
+   97  kubectl config view --minify
+   98  kubectl config get-contexts
+   99  echo "KUBECONFIG=$KUBECONFIG"
+  100  ls -l ~/.kube/config
+  101  curl -Lo ./kind https://kind.sigs.k8s.io/dl/latest/kind-linux-amd64
+  102  chmod +x ./kind
+  103  sudo mv ./kind /usr/local/bin/kind
+  104  kind create cluster --name dev
+  105  kubectl cluster-info
+  106  kubectl get nodes
+  107  kubectl config get-contexts
+  108  exit
+  109  g++ main.cpp -o main.exe && .\main.exe
+  110  ls
+  111  ыгвщ
+  112  ls
+  113  sudo su - root
+  114  ls
+  115  sudo apt update
+  116  sudo apt install g++ make
+  117  sudo apt update
+  118  sudo apt upgrade -y 
+  119  sudo apt install build-essential gdb -y 
+  120  ls
+  121  g++ mainc -o main && ./main.exe 
+  122  g++ main.c -o main && ./main.exe 
+  123  g++ main.c -o main.exe && ./main.exe 
+  124  gcc
+  125  gcc main.c -o prog
+  126  file prog
+  127  gcc main.c -o main && ./main
+  128  gcc -g main.c -o main && ./main
+  129  gcc -g -Wall main.c -o main && ./main
+  130  gcc -g main.c -o main && ./main
+  131  prog main
+  132  file main
+  133  code .
+  134  gcc -g -Wall main.c -o main && ./main
+  135  gcc  main.c -o main && ./main
+  136  gcc -g -Wall main.c -o main && ./main
+  137  gcc  main.c -o main && ./main
+  138  gcc -g -Wall -Wshadow main.c -o main && ./main
+  139  make -f name
+  140  make
+  141  make -f Makefile
+  142  gcc
+  143  make -f Makefile
+  144  make test -f Makefile 
+  145  make -f Makefile
+  146  make test
+  147  make program
+  148  make test
+  149  make test -f Makefile
+  150  make -f Makefile 
+  151  make test
+  152  make program
+  153  make -f program
+  154  make -f main
+  155  make -f all
+  156  make -f test
+  157  make -f Makefile 
+  158  make -f test
+  159  make -f main
+  160  make
+  161  make test
+  162  mkdir -p expected
+  163  for i in 0 1 2 3 4; do     ./main inputs/input$i > expected/expected$i; done
+  164  mkdir -p expected
+  165  for i in 0 1 2 3 4; do     ./main inputs/input$i > expected/expected$i; done
+  166  make test
+  167  touch case1
+  168  shuf
+  169  shuf -i 1-10 -n 20 -r > case2
+  170  gcc -g -fsanitize=address -static-libasan  wrongindex.c 
+  171  gcc -g -fsanitize=address -static-libasan wrongindex.c
+  172  make wrongindex
+  173  make -f Makefile 
+  174  make wrongindex
+  175  gcc -g -fsanitize=address -static-libasan wrongindex.c
+  176  make wrongindex
+  177  gcc -g -fsanitize=address -static-libasan wrongindex.c -wrongindex
+  178  gcc -g -fsanitize=address -static-libasan wrongindex.c -o wrongindex
+  179  make wrongindex
+  180  gcov main.c
+  181  make main
+  182  du -s * | sort -n
+  183  gcc --coverage -o main main.c
+  184  gcc --coverage -o main main.c && ./main
+  185  gcc --coverage -o main main.c && ./main 2 3
+  186  gcc --coverage -o main main.c && ./main 7 7
+  187  man string
+  188  gcc --coverage -o main main.c && ./main 7 7
+  189  gcc --coverage -o main main.c && ./main 5 8 -11 4 3 27
+  190  gcc --coverage -o main main.c && ./main
+  191  gcc --coverage -o main main.c && ./main 5 8 -11 4 3 27
+  192  gcc --coverage -o main main.c && ./main
+  193  gcc --coverage -o main main.c && ./main 5 8 -11 4 3 27
+  194  gcc --coverage -o main main.c && ./main
+  195  gcc --coverage -o main main.c && ./main gcc --coverage -o main main.c && ./main
+  196  gcc --coverage -o main main.c && ./main
+  197  gcc --coverage -o main main.c && ./main  5 2 9 1 7
+  198  gcc --coverage -o main main.c && ./main
+  199  gcc --coverage -o main main.c && ./main  5 2 9 1 7
+  200  gcc --coverage -o main main.c && ./main
+  201  gcc --coverage -o main main.c && ./main  5 2 9 1 7
+  202  make 
+  203  make test
+  204  make 
+  205  make main
+  206  valgrind --leak-check=full  main
+  207  valgrind --leak-check=full ./mysort 5 2 9 1 
+  208  apt install valgrind
+  209  sudo apt update
+  210  sudo apt install valgrind -y
+  211  sudo apt update
+  212  valgrind --leak-check=full ./mysort 5 2 9 1 7
+  213  valgrind --leak-check=full ./main 5 2 9 1 7
+  214  make -f Makefile 
+  215  make  Makefile 
+  216  make valgrind
+  217  make  
+  218  make  all
+  219  make main
+  220  gcc --coverage -o main main.c && ./main
+  221  make valgrind
+  222  gcc -g -fsanitize=address -static-libasan main.c &
+  223  gcc -g -fsanitize=address -static-libasan --coverage -o main main.c && ./main  
+  224  gcc -g -fsanitize=address -static-libasan --coverage -o main main.c && ./main  23 56 22 6
+  225  rustam@DESKTOP-TS3GQ69:/mnt/g/common/c/с$ gcc -g -fsanitize=address -static-libasan --coverage -o main main.c && ./main  28
+  226  gcc -g -fsanitize=address -static-libasan --coverage -o main main.c && ./main  223
+  227  gcc -g -fsanitize=address -static-libasan --coverage -o main main.c && ./main  test qwe
+  228  gcc -g -fsanitize=address -static-libasan --coverage -o main main.c && ./main  23 56 22 6
+  229  gcc -g -fsanitize=address -static-libasan --coverage -o main main.c && ./main  23 
+  230  gcc -g -fsanitize=address -static-libasan --coverage -o main main.c && ./main  4
+  231  gcc -g -fsanitize=address -static-libasan --coverage -o main main.c && ./main  456
+  232  gcc -g -fsanitize=address -static-libasan --coverage -o main main.c && ./main  
+  233  gcc -g -fsanitize=address -static-libasan --coverage -o main main.c && ./main  test.txt
+  234  grep EOF /usr/include/stdio.h
+  235  ls
+  236  g++ main.cpp -o main && ./main
+  237  gcc -g -fsanitize=address -static-libasan --coverage -o main main.c && ./main  test.txt
+  238  gcc -g -fsanitize=address -static-libasan --coverage -o main main.c && ./main  
+  239  gcc -g -fsanitize=address -static-libasan --coverage -o main main.c && ./main  test.txt
+  240  gcc -g -fsanitize=address -static-libasan --coverage -o main main.c && ./main  1.txt 2.txt 
+  241  gcc -g -fsanitize=address -static-libasan --coverage -o main main.c && ./main  1.txt 2.txt out.txt 
+  242  cat 1.txt 
+  243  cat out.txt 
+  244  gcc -g -fsanitize=address -static-libasan --coverage -o main main.c && ./main  1.txt 2.txt out.txt 
+  245  cat out.txt 
+  246  gcc -g -fsanitize=address -static-libasan --coverage -o main main.c && ./main  1.txt 
+  247  cut -d: -f7 /etc/passwd | sort | uniq -с
+  248  g++ main.cpp
+  249  g++ *.cpp
+  250  ls
+  251  ls -l src
+  252  ls -l include src
+  253  g++ *.cpp
+  254  g++ -I include main.cpp src/*.cpp -o calculator
+  255  g++ -I include main.cpp src/*.cpp -o calculator && ./calculator 
+  256  gcc -g -fsanitize=address -static-libasan --coverage -o main main.c && ./main  1.txt 
+  257  gcc -g fsanitize=address --coverage -main main.c && ./main
+  258  gcc -g fsanitize=address --coverage -o main main.c && ./main
+  259  gcc -g fsanitize=address --coverage -o main main.c && ./main 1.txt
+  260  ls
+  261  gcc -g -fsanitize=address -static-libasan --coverage -o main main.c && ./main  1.txt 
+  262  gcc -g -fsanitize=address -static-libasan --coverage -o main main.c && ./main 1.txt
+  263  gcc -g -fsanitize=address -static-libasan --coverage -o main main.c && ./main 1.txt 2.txt out.txt 
+  264  gcc -g -fsanitize=address -static-libasan --coverage -o main main.c && ./main 1.txt 
+  265  gcc -g -fsanitize=address -static-libasan --coverage -o main main.c && ./main 1.txt 2.txt out.txt 
+  266  gcc -g -fsanitize=address -static-libasan --coverage -o main main.c && ./main 1.txt 
+  267  gcc -g -fsanitize=address -static-libasan --coverage -o main main.c && ./main 1.txt 2.txt 
+  268  gcc -g -fsanitize=address -static-libasan --coverage -o main main.c && ./main 1.txt 2.txt  the
+  269  gcc -g -fsanitize=address -static-libasan --coverage -o main main.c && ./main 1.txt 2.txt  'the'
+  270  gcc -g -fsanitize=address -static-libasan --coverage -o main main.c && ./main 1.txt 2.txt  "the"
+  271  gcc -g -fsanitize=address -static-libasan --coverage -o main main.c && ./main 1.txt 2.txt  "used"
+  272  g++ main.cpp
+  273  g++ main.cpp -o main && ./main
+  274  sudo
+  275  sudo -u login
+  276  g++ main.cpp -o main && ./main
+  277  sudo apt-get u
+  278  g++ main.cpp -o main && ./main
+  279  chmod +r main.cpp
+  280  g++ main.cpp -o main && ./main
+  281  ./main &
+  282  top
+  283  ps -p 1
+  284  ls /etc/init.d/
+  285  cat cron
+  286  cat /etc/init.d/cron
+  287  man init-d-script
+  288  cat ~/sniff_printer.sh
+  289  touch ~/sniff_printer.sh
+  290  cat ~/sniff_printer.sh
+  291  code . ~/sniff_printer.sh
+  292  nano ~/sniff_printer.sh
+  293  cat ~/sniff_printer.sh
+  294  unit – myservice_test.service
+  295  cat /etc/test_config/config
+  296  rm =rf  ~/sniff_printer.sh 
+  297  rm   ~/sniff_printer.sh 
+  298  rm  -rf  ~/sniff_printer.sh 
+  299  cat ~/sniff_printer.sh
+  300  ls
+  301  size ./main
+  302  g++ main.cpp -std=c++2a
+  303  g++ main.cpp -std=c++20 -O0 -o test
+  304  ./test
+  305  size ./test
+  306  readelf -s test
+  307  nm -S test | grep test_var
+  308  nm -S test | grep test_func
+  309  nm -S test 
+  310  g++ main.cpp -std=c++20 -O0 -o test
+  311  nm -S test | grep test
+  312  nm -S test | grep test_func
+  313  g++ main.cpp -std=c++20 -O0 -o test
+  314  nm -S test | grep test
+  315  nm -S test | grep test_func
+  316  nm -S test 
+  317  nm -C test | grep test_func
+  318  g++ main.cpp -std=c++20 -O0 -o test
+  319  nm -C test | grep test_func
+  320  g++ main.cpp -std=c++20 -O0 -o test
+  321  nm -C test
+  322  g++ main.cpp -std=c++20 -O0 -o test
+  323  nm -C test
+  324  nm -C test | test
+  325  nm -C test | test_func
+  326  nm -C test | grep test_func
+  327  g++ main.cpp -std=c++20 -O0 -o test
+  328  nm -C test | grep test_func
+  329  nm -C test 
+  330  g++ main.cpp -std=c++20 -O0 -o test
+  331  nm -C test | grep test_func
+  332  nm -C test
+  333  g++ main.cpp -std=c++20 -O0 -o test&& /main
+  334  g++ main.cpp -std=c++20 -O0 -o test&& /.main
+  335  g++ main.cpp -std=c++20 -O0 -o test&& ./main
+  336  cat main.cpp 
+  337  g++ main.cpp -std=c++20 -O0 -o test&& ./main
+  338  cat main.cpp 
+  339  g++ main.cpp -std=c++20 -O0 -o test && ./test
+  340  nm  -C test | grep test
+  341  g++ main.cpp -std=c++20 -O0 -o main && ./main
+  342  chr -m
+  343  chrt -m
+  344  nice -5 ps
+  345  sudo nice -5 ps
+  346  g++ main.cpp -std=c++20 -O0 -o test && ./test
+  347  wsl
+  348  g++ main.cpp -std=c++20 -O0 -o test && ./test
+  349  cat main.cpp 
+  350  g++ main.cpp -std=c++20 -O0 -o test && ./test
+  351  g++ main.cpp  -O0 -o test && ./test
+  352  g++ main.cpp -std=c++20 -O0 -o test && ./test
+  353  more /proc/cpuinfo
+  354  gcc --version
+  355  ls -al
+  356  tree --charset=ascii
+  357  sudo apt install tree
+  358  tree --charset=ascii
+  359  tree 
+  360  cmake -S . -B build
+  361  sudo apt  install cmake
+  362  cmake -S . -B build
+  363  make -f Makefile
+  364  make
+  365  make all
+  366  all
+  367  make main
+  368  make
+  369  gcc -g -fsanitize=address -static-libasan --coverage -o main main.c && ./main 1.txt 2.txt  "used"
+  370  gcc -g -fsanitize=address -static-libasan --coverage -o main main.c && ./main 1.txt 2.txt  "file"
+  371  man magic
+  372  df -h
+  373  gprof fibprog
+  374  gprof
+  375  gprof fibprog
+  376  ls -l gmon.out
+  377  gprof fibprog
+  378  ls -l
+  379  gprof fibprog
+  380  gcc main.c -o main && ./main
+  381  gcc main.c -o main && ./main 23
+  382  gcc -Wall -Wshadow -pg main.c -o fibprog
+  383  gprof fibprog
+  384  gprof 
+  385  gcc -Wall -Wshadow -pg main.c -o fibprog
+  386  gprof fibprog
+  387  ./fibprog
+  388  gcc -Wall -Wshadow -pg main.c -o fibprog
+  389  ./fibprog
+  390  gcc -Wall -Wshadow -pg main.c -o fibprog
+  391  gcc -Wall -Wshadow -pg main.c -o fibprog && ./fibprog 
+  392  gprof fibprog 
+  393  g++ main.cpp -o main && ./main
+  394  mkdir test_dir
+  395  touch test_dir/file1.txt test_dir/file2.txt
+  396  mkdir test_dir/subdir
+  397  touch test_dir/subdir/file3.txt
+  398  mkdir test_dir/q
+  399  g++ main.cpp -o main && ./main
+  400  QW
+  401  g++ main.cpp -o main && ./main
+  402  t
+  403  g++ main.cpp -o main && ./main
+  404  g++ main.cpp -o main && ./main
+  405  ls -l
+  406  g++ main.cpp -o main && ./main
+  407  cd ~
+  408  ls
+  409  mkdir cppfolder
+  410  cd cppfolder/
+  411  cp /mnt/g/common/c++/c++/main.cpp ~/cppfolder/main.cpp
+  412  ls
+  413  g++ main.cpp -o main && ./main
+  414  code .
+  415  cd/mnt/g/common/c++/c++
+  416  cd  mnt/g/common/c++/c++
+  417  cd /mnt/g/common/c++/c++
+  418  g++ main.cpp -o main && ./main
+  419  cp /mnt/g/common/c++/c++/main.cpp ~/cppfolder/main.cpp 
+  420  g++ ~/cppfolder/main.cpp -o ~/cppfolder/main && ~/cppfolder/main
+  421  cp /mnt/g/common/c++/c++/main.cpp ~/cppfolder/main.cpp 
+  422  g++ ~/cppfolder/main.cpp -o ~/cppfolder/main && ~/cppfolder/main
+  423  cp /mnt/g/common/c++/c++/main.cpp ~/cppfolder/main.cpp 
+  424  g++ ~/cppfolder/main.cpp -o ~/cppfolder/main && ~/cppfolder/main
+  425  cd ~
+  426  ls
+  427  cd /mnt/g/common/c/с
+  428  more /proc/cpuinfo
+  429  tree --charset=ascii
+  430  gcc main.c  -o main && ./main
+  431  tree --charset=ascii
+  432  gcc main.c  -o main && ./main
+  433  gcc main.c  -o main && ./main q
+  434  gcc main.c  -o main && ./main q q q
+  435  gcc main.c  -o main && ./main 1.txt 2.txt  file
+  436  gcc main.c  -o main && ./main q q q
+  437  gcc main.c  -o main && ./main
+  438  gcc main.c  -o main && ./mainq
+  439  gcc main.c  -o main && ./main  q
+  440  gcc main.c  -o main && ./main  1.txt 2.txt  "used"
+  441  g++ main.cpp -o main && ./main
+  442  g++ main.cpp --std=20 -o main && ./main
+  443  g++ main.cpp -std=c++20 -o main && ./main
+  444  gcc --coverage -o main main.c && ./main
+  445  gcc --coverage -o main main.c && ./main 7
+  446  gcc --coverage -o main main.c && ./main 
+  447  gcc --coverage -o main main.c && ./main  435
+  448  gcc --coverage -o main main.c && ./main  4 23 
+  449  gcc --coverage -o main main.c && ./main  4 23  2
+  450  gcc --coverage -o main main.c && ./main 'ABC'
+  451  gcc --coverage -o main main.c && ./main "ABC"
+  452  gcc --coverage -o main main.c && ./main 2
+  453  gcc --coverage -o main main.c && ./main 654
+  454  gcc --coverage -o main main.c && ./main 654 > q.txt
+  455  gcc --coverage -o main main.c && ./main 654 > qq.txt
+  456  gcc --coverage -o main main.c && ./main 6 > q.txt
+  457  gcc --coverage -o main main.c && ./main
+  458  g++ main.cpp -o main && ./main
+  459  g++ main.cpp -std=c++20 -o main && ./main
+  460  ls -l /tmp/test
+  461  ls -l ~/tmp/test
+  462  g++ main.cpp -std=c++20 -o main && ./main
+  463  gcc main.c -o main
+  464  gcc main.c -o main && ./main
+  465  make person
+  466  ls -l
+  467  make clean
+  468  make all
+  469  ./person
+  470  make person
+  471  make clean
+  472  make person
+  473  ./person
+  474  ./person.o
+  475  make clean
+  476  make person
+  477  ./person.o
+  478  ./person
+  479  make clean
+  480  make person
+  481  ./person
+  482  g++ main.cpp -o main && ./main
+  483  g++ main.cpp -std=c++20 -o main && ./main
+  484  make clean
+  485  make all
+  486  make main
+  487  gcc main.c -o main && ./main.c 
+  488  gcc main.c -o main && ./main
+  489  make main
+  490  make all
+  491  make person
+  492  make clean
+  493  ./person
+  494  make person
+  495  make person && ./person
+  496  make person && ./main
+  497  make person 
+  498  make clean
+  499  make person
+  500  gcc -g -Wall -Wshadow main.
+  501  make person
+  502  make clean
+  503  make person
+  504  make main
+  505  ./main
+  506  ./main 2 3 5с$ ./main 2 3 5
+  507  ./main inputs/input0 out_name.txt out_age.txt
+  508  make main 
+  509  make clean
+  510  make main 
+  511  make clean
+  512  make main 
+  513  ./main inputs/input0 out_name.txt out_age.txt
+  514  g++ main.cpp -std=c++20 -o main && ./main
+  515  make 
+  516  make
+  517  gcc main.c decpack.c -o main && ./main
+  518  g++ main.cpp
+  519  g++ main.cpp -o main && ./main
+  520  make
+  521  make main
+  522  gcc main.c decpack.c -o main && ./main
+  523  make main
+  524  make list
+  525  g++ main.cpp -o main && ./main
+  526  g++ main.cpp
+  527  g++ main.cpp -o main && ./main
+  528  g++ main.cpp -std=c++20 -o main && ./main
+  529  g++ main.cpp -o main && ./main
+  530  g++ main.cpp -std=c++20 -o main && ./main
+  531  ip addr show
+  532  make main
+  533  make clean
+  534  sudo apt-get install libgtest-dev
+  535  "N3#N3
+  536  учш
+  537  exit
+  538  "P1#P1
+  539  sud
+  540  sudo apt update
+  541  exit
+  542  time
+  543  sudo apt-get install libgtest-dev
+  544  g++ main.cpp -o main && ./main
+  545  exit
+  546  /mnt/g/common/c++/c++/main
+  547  ping -c 3 archive.ubuntu.com
+  548  sudo apt update
+  549  code .
+  550  g++ main.cpp -o main && ./main
+  551  cat main.cpp 
+  552  g++ main.cpp  -std=c++20 -o main && ./main
+  553  code .
+  554  g++ main.cpp  -std=c++20 -o main && ./main
+  555  rm -rf ~/.vscode-server
+  556  rm -rf ~/.vscode-server/extensions
+  557  vscode как удалить? из wsl
+  558  rm -rf ~/.vscode-server/extensionsrm -rf ~/.vscode-server
+  559  rm -rf ~/.vscode-server
+  560  # Удаляем пакет code
+  561  sudo apt remove --purge code
+  562  # Удаляем оставшиеся зависимости, которые больше не нужны
+  563  sudo apt autoremove --purge
+  564  # Очищаем кэш пакетного менеджера
+  565  sudo apt clean
+  566  exit
+  567  code .
+  568  sudo rm $(which code)
+  569  sudo rm /usr/local/bin/code
+  570  sudo rm "/mnt/c/Program Files/Microsoft VS Code/bin/code"
+  571  sudo rm "/mnt/c/Program Files/Microsoft VS Code/bin/code.bak"
+  572  exit
+  573  g++ main.cpp  -std=c++20 -o main && ./main
+  574  pip install watchfiles
+  575  g++ main.cpp  -std=c++20 -o main && ./main
+  576  ls
+  577  exit
+  578  g++ main.cpp  -std=c++20 -o main && ./main
+  579  cd /g/common/c++/c++
+  580  ls
+  581  cd ~
+  582  ls
+  583  cd cpp
+  584  exit
+  585  g++ main.cpp  -std=c++20 -o main && ./main
+  586  nc -vz 127.0.0.1 13
+  587  exit
+  588  ./main 127.0.0.1
+  589  nc 127.0.0.1 13
+  590  ./main 127.0.0.1
+  591  sudo ./main
+  592  nc 127.0.0.1 1024
+  593  nc 127.0.0.1 13
+  594  nc 127.0.0.1 1024
+  595  g++ main.c
+  596  g++ main.c -o main && ./main
+  597  g++ main.c -o main && ./main 1 2
+  598  g++ main.c -o main && ./main 1 
+  599  g++ main.c -o main && ./main "t"
+  600  g++ main.c -o main && ./main "123.01.01"
+  601  g++ main.c -o main && ./main "123.0.0.1"
+  602  g++ main.c -o main && ./main "127.0.0.1"
+  603  ping google
+  604  dig google.com
+  605  host google.com
+  606  g++ main.c -o main && ./main "142.251.98.13"
+  607  ping 8.8.8.8
+  608  g++ main.c -o main && ./main "8.8.8.8"
+  609  g++ main.c -o main && ./main "192.168.1.1 "
+  610  g++ main.c -o main && ./main "142.251.98.13"
+  611  g++ main.c -o main && ./main "192.168.1.1"
+  612  ping https://steamcommunity.com/
+  613  ping steamcommunity.com/
+  614  ping steamcommunity.com
+  615  g++ main.c -o main && ./main "23.197.161.19"
+  616  ping steamcommunity.com
+  617  dig +short steamcommunity.com
+  618  g++ main.c -o main && ./main "2606:4700:50::adf5:3a8c"
+  619  g++ main.c -o main && ./main "2606:4700:58::adf5:3b92"
+  620  g++ main.c -o main && ./main "2600:1480:7000::40"
+  621  ip -6 addr
+  622  g++ daytimecpsrtv.c -o main && ./main "2600:1480:7000::40"
+  623  ls
+  624  g++ daytimecpsrtv.c -o main && ./main "2600:1480:7000::40"
+  625  g++ daytimecpsrtv.c -o main && ./main 
+  626  ls
+  627  g++ daytimecpsrtv.c -o main && ./main 
+  628  sudo
+  629  sudo ./main
+  630  g++  -g -Wall -Wextra -Wshadow  daytimecpsrtv.c -o main && ./main 
+  631  g++ main.cpp
+  632  g++ main.cpp -o main && ./main
+  633  g++ main.cpp -o -std=c++20 main && ./main
+  634  g++ main.cpp -o -std=c++20  -fcoroutines main && ./main
+  635  g++ main.cpp -o   -fcoroutines main && ./main
+  636  g++ main.cpp -o main   -fcoroutines  && ./main
+  637  g++ main.cpp -o main   -fcoroutines  -fconcepts && ./main
+  638  g++ main.cpp -o main   -fcoroutines  -fconcepts -std=c++20 && ./maing++ main.cpp -o main   -fcoroutines  -fconcepts -std=c++20 && ./main
+  639  g++ main.cpp -o main   -fcoroutines   && ./main
+  640  g++ main.cpp -o main   -fcoroutines -std=c++21  && ./main
+  641  g++ main.cpp -o main   -fcoroutines -std=c++23  && ./main
+  642  g++ main.c -o main && ./main
+  643  g++ main.c -o main && ./main "2606:4700:58::adf5:3b92"
+  644  ping
+  645  ping https://chat.deepseek.com
+  646  ping chat.deepseek.com
+  647  3.173.21.63
+  648  ping6 google.com
+  649  getent ahosts6 google.com
+  650  host -t AAAA google.com
+  651  dig google.com AAAA
+  652  sudo apt update
+  653  sudo apt install dnsutils
+  654  dig google.com AAAA
+  655  # или
+  656  host -t AAAA google.com
+  657  dig google.com AAAA
+  658  g++ main.c -o main && ./main "2a00:1450:4025:800::8b"
+  659  g++ main.c -o main && ./main "2a00:1450:4025:800::9b"
+  660  git add .
+  661  netstat
+  662  	ss -tlnp
+  663  host -t AAAA google.com
+  664  dig google.com AAAA
+  665  	ss -ni
+  666  ss
+  667  yh
+  668  ss -ni
+  669  which dig
+  670  which nslookup
+  671  which host
+  672  sudo lsof /var/lib/dpkg/lock-frontend
+  673  restart
+  674  reload
+  675  rustam@DESKTOP-TS3GQ69:/mnt/g/common/c/с$ sudo lsof /var/lib/dpkg/lock-frontend [sudo] password for rustam: rustam@DESKTOP-TS3GQ69:/mnt/g/common/c/с$ sudo lsof /var/lib/dpkg/lock-frontendwhich dig
+  676  which nslookup
+  677  which host
+  678  which nslookup
+  679  which host
+  680  which nslookup
+  681  sudo dpkg --configure -a
+  682  sudo apt install -f
+  683  sudo apt install dnsutils
+  684  which dig
+  685  dig google.com
+  686  exit
+  687  nc 127.0.0.1 1024
+  688  exit
+  689  nc 127.0.0.1 1024
+  690  dig google.com
+  691  ss -ni
+  692  sudo ss -tlnp
+  693  sudo ss -r
+  694  sudo ss -rn
+  695  sudo ss -nr
+  696  ifconfig eth0
+  697  ip a
+  698  ip -a
+  699  ipa
+  700  ip a
+  701  g++ main.cpp -o main && ./main
+  702  g++ main.c -o main && ./main
+  703  g++ daytimecpsrtv.c -o main && ./main
+  704  kill 1234
+  705  killall server
+  706  g++ daytimecpsrtv.c -o main && ./main
+  707  gcc daytimecpsrtv.c -o main && ./main
+  708  gcc  -g -Wall -Wextra -Wshadow  daytimecpsrtv.c -o main && ./main
+  709  g++ main.cpp -o main && ./main
+  710  g++ main.cpp -o main 
+  711  ss
+  712  ss  daytime
+  713  ss freebsd  daytime
+  714  nc freebsd  daytime
+  715  nc freebsd   13
+  716  nc freebsd daytime
+  717  strace
+  718  g++ main.cpp -o main && ./main
+  719  tcpdump
+  720  gcc main.c -o main && ./main
+  721  gcc main.c -o main && ./main history > 1.txt
+  722  history 1.txt
+  723  history  > 1.txt
