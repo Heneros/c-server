@@ -21,4 +21,10 @@ struct result
     long sum;
 };
 
+#define SA struct sockaddr
+
+
+#define NDG 2000
+#define DGLEN 65507
+
 #endif
